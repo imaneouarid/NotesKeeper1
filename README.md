@@ -1,8 +1,25 @@
-# React + Vite
+# NotesKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NotesKeeper is a simple web application for managing notes. It allows users to create, read, update, and delete notes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create new notes with a title and content.
+- View all existing notes.
+- Update existing notes.
+- Delete notes.
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Jest (for testing)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/imaneouarid/NotesKeeper1.git
