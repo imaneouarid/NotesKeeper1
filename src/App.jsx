@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 
 const App = () => {
-  const [name, setName] = useState('');
+  const [name, setName] = useState("");
   const handleSubmit = (event) => {
     event.preventDefault();
     const greeting = `Bonjour, ${name}!`;
-    document.getElementById('greeting').textContent = greeting;
+    document.getElementById("greeting").textContent = greeting;
   };
 
   return (
@@ -19,7 +19,9 @@ const App = () => {
           value={name}
           onChange={(event) => setName(event.target.value)}
         />
-        <button type="submit" id="submit-btn">Valider</button>
+        <button type="submit" id="submit-btn">
+          Valider
+        </button>
       </form>
       <div id="greeting"></div>
     </div>
